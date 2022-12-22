@@ -1,0 +1,14 @@
+//Importaciones de componentes y paginas
+@import url('./page/app.scss');
+@import url('./components/navBar.scss');
+@import url('./page/home.scss');
+@import url('./page/presetOne.scss');
+@import url('./components/allies.scss');
+@import url('./components/services.scss');
+@import url('./components/form.scss');
+@import url('./components/footer.scss');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

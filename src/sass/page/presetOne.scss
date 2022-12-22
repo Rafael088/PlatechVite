@@ -1,0 +1,60 @@
+@import url('../components/buttonMain.scss');
+.contPreset{
+    width: 100%;
+    height: 100%;
+    background-color: #101728;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contPreset .contContent{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.contPreset .contContent .contBody{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.contPreset .contContent .contBody h3{
+    color: #55B3D9;
+    font-size: 30px;
+}
+.contPreset .contContent .contBody .text{
+    color: #fff;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+.contPreset .contContent .contImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #55b4d925;
+    box-shadow: 10px 10px 100px 50px #55B3D9;
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contPreset .contContent .contImg .img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    opacity: 100%;
+}
+.left{
+    flex-direction: row-reverse;
+}
+.right{
+    flex-direction: row;
+}

@@ -1,0 +1,81 @@
+.contServices{
+    width: 100%;
+    height: 100%;
+    background-color: #101728;
+    background-image: url('../../assets/platech3.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contServices h3{
+    font-size: 30px;
+    color: #55B3D9;
+}
+.contServices .contEfect{
+    width: 50%;
+    height: 10%;
+    background-color: #55B3D9;
+    border-radius: 50%;
+    filter: blur(140px);
+}
+.contServices .contBody{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.contServices .contBody .contCard{
+    width: 300px;
+    height: 300px;
+                    
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+.contServices .contBody .contCard .contCardFooter{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contServices .contBody .contCard .contCardBody{
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contServices .contBody .contCard .contCardBody p{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+.contServices .contBody .contCard .contCardHeader{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.contServices .contBody .contCard .contCardHeader img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    background-color: #FFFFFF;
+}
+.contServices .contBody .contCard .contCardHeader b{
+    font-size: 17px;
+    color: white;
+}

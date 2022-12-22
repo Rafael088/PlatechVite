@@ -1,0 +1,49 @@
+.Form{
+    width: 100%;
+    height: 100%;
+    background-color: #101728;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Form h3{
+    font-size: 30px;
+    color: #55B3D9;
+}
+.Form .contBody{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Form .contBody .contForm{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+.Form .contBody .contContent{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Form .contBody .contContent img{
+    width: 100px;
+    height: 90px;
+}
+.Form .contBody .contContent b{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}

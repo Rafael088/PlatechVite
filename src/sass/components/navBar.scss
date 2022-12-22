@@ -1,0 +1,25 @@
+.contNavBar{
+    width: 95%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contNavBar img{
+    width: 80px;
+    height: 70%;
+    margin-right: 10px;
+}
+.contNavBar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 40px;
+    cursor: pointer;
+    transition: all 0.2s;
+    
+}
+.contNavBar a:hover{
+    text-decoration: underline;
+}
