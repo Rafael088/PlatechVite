@@ -42,30 +42,15 @@ function Allies() {
                 </div>
                 <div className="contFooter">
 
-                    <b>Seguiremos plantando nuestra semilla transformadora donde sea que vayamos.</b>
+                    <b>La innovación tecnológica al servicio de su industria</b>
                     <div className='bord'>
-
-                    </div>
-                    <div className='contFilter'>
 
                     </div>
                 </div>
                 <div className="contPass">
-                    <div className='contImg'>
-
-                    </div>
-                    <div className='contImg'>
-
-                    </div>
-                    <div className='contImg'>
-
-                    </div>
-                    <div className='contImg'>
-
-                    </div>
-                    <div className='contImg'>
-
-                    </div>
+                    <img className='contImg' src='https://cdn.discordapp.com/attachments/1065066497300504661/1067617372304842752/libro-compressor.png' alt='Manizales Mas' />
+                    <img className='contImg' src='https://cdn.discordapp.com/attachments/1065066497300504661/1067617658385735761/Portada-Open-Mas-2.jpg' alt='Open Mas' />
+                    <img className='contImg' src='https://cdn.discordapp.com/attachments/1065066497300504661/1067617976196538478/company-image-1188-3.png' alt='Innovate Chec' />
                 </div>
             </div>
         </section>

@@ -3,10 +3,12 @@ import { AiOutlineInstagram, AiOutlineWhatsApp, AiFillYoutube } from "react-icon
 import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
     return ( 
-        <section className="Footer">
-            <h3>Somos</h3>
+        <section className="Footer" id="contact">
             <div className="contBody">
-                <b>Un equipo en búsqueda de la transformación digital de las empresas, ayudando al crecimiento comercial y tecnológico del país, con habilidades que apuntan a la nueva Generación Digital</b>
+                
+                <p>Un equipo en búsqueda de la transformación digital de las empresas, ayudando al crecimiento comercial y tecnológico del país, con habilidades que apuntan a la nueva Generación Digital</p>
+                <p>Conoce más sobre nosotros en nuestras redes sociales</p>
+                
                 <div className="contBtn">
                 <a href='https://www.instagram.com/platechoficial' target="_blank" rel="noreferrer">
                     <AiOutlineInstagram className="icon"/>

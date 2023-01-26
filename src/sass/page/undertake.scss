@@ -1,0 +1,127 @@
+.contUndertake{
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #E1F2FB;
+    
+    overflow: auto;
+}
+.contUndertake .contBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.contUndertake .contBody .contContent{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contUndertake .contBody .contContent a{
+    width: 100px;
+    height: 30px;
+    background-color: #5BC2D9;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    text-decoration: none;
+    margin: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+    animation: animText 0.4s ease-in;
+    justify-content: center;
+}
+.contUndertake .contBody .contContent a:hover{
+    border: 1px solid #5BC2D9;
+    background-color: transparent;
+    color: #a055d9d5;
+}
+.contUndertake .contBody .contContent h3{
+    text-align: center;
+    font-size: 20px;
+    color: #5BC2D9;
+    margin-bottom: 20px;
+}
+.contUndertake .contBody .contContent p{
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+}
+.contUndertake .contBody .contImg{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contUndertake .contBody .contImg img{
+    width: fit-content;
+    height: 500px;
+    position: relative;
+    
+    animation: animText 0.4s ease-in;
+    z-index: 1;
+}
+.contBody .contRedes{
+    position: absolute;
+    bottom: 2%;
+    z-index: 1;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.contBody .contRedes .icon{
+    width: 30px;
+    height: 30px;
+    color: #a055d9d5;
+    
+    animation: animText 0.4s ease-in;
+}
+#wave{
+    position: absolute;
+    bottom: 0%;
+    z-index: 0;
+}
+@media (max-width: 600px) {
+    .contUndertake .contBody{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .contUndertake .contBody .contContent{
+        width: 80%;
+        height: 30%;
+    }
+    .contUndertake .contBody .contImg{
+        width: 80%;
+        height: 50%;
+    }
+    .contUndertake .contBody .contImg img{
+        width: fit-content;
+        height: 300px;
+        position: relative;
+        
+        z-index: 1;
+    }
+    #wave{
+        position: absolute;
+        bottom: 0%;
+        z-index: 0;
+    }
+}

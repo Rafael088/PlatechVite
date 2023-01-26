@@ -1,18 +1,20 @@
-import ButtonMain from "../components/ButtonMain"
-import imgOne from '../assets/6477441.jpg'
-import imgTwo from '../assets/robot-hand-finger-ai-background-technology-graphics.jpg'
 
-function PresetOne({rutaIMg, text, title, textBtn, position}) {
+import imgOne from '../assets/5949651_3081623.svg'
+
+import {NavLink} from 'react-router-dom'
+function PresetOne({ text, title, textBtn, }) {
     return ( 
         <section className="contPreset" id="presetOne">
-            <div className={position === 1? "contContent rigth": "contContent left"}>
+            <div className="contContent rigth">
                 <div className="contImg">
-                    <img className="img" src={position === 1 ? imgOne:imgTwo} alt={title}/>
+                    <img className="img" src={imgOne} alt={title}/>
                 </div>
                 <div className="contBody">
                     <h3>{title}</h3>
                     <p className="text">{text}</p>
-                    <ButtonMain text={textBtn}/>
+                    <NavLink className="contBtnMain" to="/emprende">
+                        <p>{textBtn}</p>
+                    </NavLink>
                 </div>
             </div>
         </section>

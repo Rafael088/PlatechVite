@@ -1,7 +1,6 @@
 .contAllies{
     width: 100%;
     height: 100%;
-    background-color: #101728;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,37 +26,31 @@
     align-items: center;
     justify-content: space-around;
     
+    
 }
 .contAllies .contBody .contPass .contImg{
-    width: 40px;
-    height: 40px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
+    width: fit-content;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px -10px #a055d9d5;
 }
 .contAllies .contBody .contFooter{
     width: 60%;
     height: 17%;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #55B3D9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.contAllies .contBody .contFooter .contFilter{
-    width: 100%;
-    height: 80%;
-    background-color: #55B3D9;
-    border-radius: 50%;
-    filter: blur(40px);
-}
 .contAllies .contBody .contFooter .bord{
     width: 60%;
     margin-top: 40px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #55B3D9;
 }
 .contAllies .contBody .contFooter b{
     font-size: 20px;
-    color: white;
+    color: #5B5B5B;
     text-align: center;
 }
 .contAllies .contBody .contName{
@@ -79,9 +72,9 @@
 .contAllies .contBody .contCards .card{
     width: 300px;
     height: 300px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(255, 255, 255, 0.7);
     border: 1px solid #FFFFFF;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 .contAllies .contBody .contCards .card .contCardFooter{
     width: 100%;
@@ -95,7 +88,7 @@
 }
 .contAllies .contBody .contCards .card .contCardFooter b{
     font-size: 17px;
-    color: white;
+    color: #5B5B5B;
 }
 .contAllies .contBody .contCards .card .contCardBody{
     width: 100%;
@@ -108,7 +101,7 @@
 }
 .contAllies .contBody .contCards .card .contCardBody p{
     font-size: 17px;
-    color: #FFFFFF;
+    color: #5B5B5B;
     text-align: center;
 }
 .contAllies .contBody .contCards .card .contCardHeader{
@@ -121,22 +114,58 @@
 }
 .contAllies .contBody .contCards .card .contCardHeader  b{
     font-size: 14px;
-    color: white;
+    color: #5B5B5B;
 }
 .contAllies .contBody .contCards .card .contCardHeader img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-
-    background-color: #FFFFFF;
 }
 .contAllies .contBody .contName .cardName{
     width: 200px;
     height: 40px;
-    background-color: aliceblue;
+    background-color: #55B3D9;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+@media (min-width: 1600px) {
+    .contAllies {
+        margin: auto;
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    .contAllies{
+        margin-top: 40px;
+        height: fit-content;
+    }
+    .contAllies .contBody{
+        height: fit-content;
+    }
+    .contAllies .contBody .contName{
+        display: none;
+    }
+    .contAllies .contBody  .contCards{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .contAllies .contBody .contCards .card{
+        margin: 20px 0px;
+    }
+    .contAllies .contBody .contFooter{
+        width: 100%;
+        height: 100px;
+    }
+    .contAllies .contBody .contFooter b{
+        width: 100%;
+    }
+    .contAllies .contBody .contPass{
+        width: 100%;
+        height: 100px;
+        
+        
+    }
 }

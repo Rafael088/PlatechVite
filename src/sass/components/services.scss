@@ -1,12 +1,9 @@
 .contServices{
     width: 100%;
-    height: 100%;
-    background-color: #101728;
-    background-image: url('../../assets/platech3.png');
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: 10%;
+    height: 40%;
     display: flex;
+    position: relative;
+    z-index: 1;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -15,38 +12,98 @@
     font-size: 30px;
     color: #55B3D9;
 }
-.contServices .contEfect{
-    width: 50%;
-    height: 10%;
-    background-color: #55B3D9;
-    border-radius: 50%;
-    filter: blur(140px);
-}
 .contServices .contBody{
     width: 80%;
-    height: 40%;
+    height: max-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 .contServices .contBody .contCard{
-    width: 300px;
-    height: 300px;
-                    
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    border-radius: 25px;
-}
-.contServices .contBody .contCard .contCardFooter{
-    width: 100%;
-    height: 20%;
+    width: 250px;
+    height: 150px;
+    background: rgb(255, 255, 255, 0.7);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    cursor:default;
+    animation: animCard 0.4s ease-in;
 }
-.contServices .contBody .contCard .contCardBody{
+@keyframes animCard {
+    0%{
+        transform: translateX(100px);
+        opacity: 10%;
+    }
+    100%{
+        opacity: 100%;
+        transform: translateX(0px);
+    }
+}
+.contServices .contBody .contCard:hover .leftCard #one{
+    top: -90%;
+}
+.contServices .contBody .contCard:hover .leftCard #two{
+    top: -110%;
+}
+.contServices .contBody .contCard:hover .leftCard #three{
+    top: -110%;
+}
+.contServices .contBody .contCard:hover .leftCard #for{
+    top: -110%;
+}
+.contServices .contBody .contCard .leftCard{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.contServices .contBody .contCard .leftCard img{
+    position: absolute;
+    transition: all 0.2s;
+    
+    animation: animImg 4s infinite;
+}
+@keyframes animImg {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.contServices .contBody .contCard .leftCard #one{
+    width: 100px;
+    height: 100px;
+    top: -60%;
+}
+.contServices .contBody .contCard .leftCard #two{
+    width: 150px;
+    height: 150px;
+    top: -100%;
+}
+.contServices .contBody .contCard .leftCard #three{
+    width: 200px;
+    height: 150px;
+    top: -100%;
+}
+.contServices .contBody .contCard .leftCard #for{
+    width: 150px;
+    height: 150px;
+    top: -100%;
+}
+
+.contServices .contBody .contCard .bodyCard{
     width: 100%;
     height: 50%;
     
@@ -55,27 +112,29 @@
     align-items: center;
     justify-content: center;
 }
-.contServices .contBody .contCard .contCardBody p{
-    font-size: 17px;
-    color: white;
-    text-align: center;
-}
-.contServices .contBody .contCard .contCardHeader{
-    width: 100%;
-    height: 30%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.contServices .contBody .contCard .contCardHeader img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.contServices .contBody .contCard .bodyCard h3{
+   font-size: 15px;
 
-    background-color: #FFFFFF;
 }
-.contServices .contBody .contCard .contCardHeader b{
-    font-size: 17px;
-    color: white;
+.contServices .contBody .contCard .bodyCard p{
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+ }
+ @media (min-width: 1600px) {
+    .contServices {
+        margin: auto;
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    .contServices{
+        height: fit-content;
+    }
+    .contServices .contBody{
+        flex-direction: column;
+    }
+    .contServices .contBody .contCard{
+       margin: 40px;
+    }
 }
