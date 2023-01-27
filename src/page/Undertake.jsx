@@ -21,13 +21,10 @@ function Undertake() {
                     <a href='https://www.instagram.com/platechoficial' target="_blank" rel="noreferrer">
                         <AiOutlineInstagram className="icon"/>
                     </a>
-                    <a href='www.instagram.com'>
+                    <a href='https://wa.link/53cmy4'>
                         <AiOutlineWhatsApp className="icon"/>
                     </a>
-                    <a href='www.instagram.com'>
-                        <FaLinkedinIn className="icon"/>
-                    </a>
-                    <a href='www.instagram.com'>
+                    <a href='https://www.youtube.com/channel/UCf4z7RWq78WR4sBrguuKH1A'>
                         <AiFillYoutube className="icon"/>
                     </a>
                 </div>
