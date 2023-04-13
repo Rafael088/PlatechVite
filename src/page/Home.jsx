@@ -34,8 +34,8 @@ function Home() {
         </div>
         <Services/>
 
-        <PresetOne position={1} title="¿Eres emprendedor?" 
-          text='Transforma tu negocio con la tecnología: ¡Descubre cómo la innovación tecnológica puede impulsar tu crecimiento! ¡Haz clic aquí para obtener más información'
+        <PresetOne position={1} title="Impulsa tu negocio con IA" 
+          text='Transforma tu negocio con la tecnología: ¡Descubre cómo la innovación tecnológica puede impulsar tu crecimiento!'
           textBtn="Descubrir"
         />
         <InfoHeader/>

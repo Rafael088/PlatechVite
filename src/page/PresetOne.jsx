@@ -12,9 +12,7 @@ function PresetOne({ text, title, textBtn, }) {
                 <div className="contBody">
                     <h3>{title}</h3>
                     <p className="text">{text}</p>
-                    <NavLink className="contBtnMain" to="/emprende">
-                        <p>{textBtn}</p>
-                    </NavLink>
+                    
                 </div>
             </div>
         </section>

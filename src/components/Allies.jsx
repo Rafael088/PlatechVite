@@ -33,10 +33,10 @@ function Allies() {
                             <b>IA, Hardware y Software</b>
                         </div>
                         <div className="contCardBody">
-                            <p>Creamos IA, para el reconocimiento digital de documentos físicos y comprobar su validez, en el programa Open Mas siendo Platech Finalistas.</p>
+                            <p>Creamos IA, para el reconocimiento digital de documentos físicos y comprobar su validez, en el programa Open Mas siendo Platech Finalistas y <b>Ganadores</b>.</p>
                         </div>
                         <div className="contCardFooter">
-                            <b>2022</b>
+                            <b>2023</b>
                         </div>
                     </div>
                 </div>

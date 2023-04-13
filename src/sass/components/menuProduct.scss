@@ -1,0 +1,26 @@
+#menuProduct{
+    position: relative;
+}
+#menuProduct:hover .contNav-menuProduc{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    background: rgba(245, 246, 247);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    border-radius: 0px 0px 5px 5px;
+    animation: aniMenu 0.2s ease-in;
+}
+.contNav-menuProduc{
+    display: none;
+}
+@keyframes aniMenu {
+    0%{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    100%{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
