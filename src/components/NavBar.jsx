@@ -1,6 +1,6 @@
 
 import { AiOutlineWhatsApp, AiOutlineMenu, AiOutlineCompress, AiOutlineCalendar } from "react-icons/ai";
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { NavLink, useLocation } from 'react-router-dom'
 import React, { useState, useEffect } from 'react';
 import ModalMenu from "./modales/modalMenu";
@@ -46,8 +46,10 @@ function NavBar() {
                         </> :
                         <>
                             <NavLink to='/productos' id="menuProduct">
-                                Productos
-                                <MenuProduct/>
+                                <p>Productos
+                                    <FaAngleDown /></p>
+
+                                <MenuProduct />
                             </NavLink>
                             <a href='#contact'>
                                 Contacto

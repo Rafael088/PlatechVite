@@ -5,6 +5,9 @@
     width: 200px;
     height: 200px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: rgba(245, 246, 247);
     border-bottom: 1px solid rgb(219, 219, 219);
     position: absolute;
@@ -15,6 +18,25 @@
 }
 .contNav-menuProduc{
     display: none;
+}
+.contNav-menuProduc .menuProduct-body{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.contNav-menuProduc .menuProduct-body .btn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 @keyframes aniMenu {
     0%{
